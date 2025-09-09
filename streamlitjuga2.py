@@ -13,6 +13,8 @@ import streamlit as st
 from xgboost import XGBClassifier
 import sklearn
 import category_encoders
+import joblib
+
 
 # Set page config
 st.set_page_config(
