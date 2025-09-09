@@ -9,7 +9,7 @@ import json
 import numpy as np
 import pandas as pd
 import streamlit as st
-from xgboost import XGBClassifier()
+from xgboost import XGBClassifier
 import sklearn
 import category_encoders
 
@@ -248,3 +248,4 @@ if model is not None:
 else:
 
     st.error("Unable to load the model. Please check if 'insurance_fraud.sav' file exists in the application directory.")
+
